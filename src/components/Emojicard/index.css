@@ -1,0 +1,24 @@
+.image {
+  height: 100px;
+  width: 100px;
+}
+.listitem {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 150px;
+}
+
+@media (max-width: 575px) {
+  .image {
+    height: 30px;
+    width: 30px;
+  }
+  .listitem {
+    width: 90px;
+  }
+  .para {
+    font-size: 9px;
+  }
+}
